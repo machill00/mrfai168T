@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="en">
+  <head>
+ 
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+ 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <title>โปรโมชั่น</title>
+  </head>
+  
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
+<body class="d-flex h-100" style="height:100vh !important;
+        background-image: url('https://www.img.in.th/images/1d452b6f063cb7ab2866986e5607d1db.png');
+        /* background: linear-gradient(to bottom,#51010a 60%,#55000a 80%); */
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+        color: #fff;">
+    
+    <script>
+    window.onload = function(e){
+      liff.init({liffId: "1657412887-2vOkGyXW"}, function(){
+        liff.ready.then(() =>{
+          if(liff.isLoggedIn()){
+             var dd = getParameterByName("MAF")
+            
+    
+    if(dd === "Promotion"){
+      var ee = getParameterByName("flex")
+      var aa = [
+         {
+  "type": "flex",
+  "altText": "ทวิต",
+  "contents": {
+  "type": "bubble",
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "text": "กิจกรรมสุดท้ายเพียง",
+        "weight": "bold",
+        "align": "center",
+        "size": "xxs",
+        "color": "#ccffcc",
+        "offsetBottom": "xl",
+        "margin": "sm"
+      },
+      {
+        "type": "image",
+        "url": "https://sv1.img.in.th/HleVl.png",
+        "size": "full",
+        "offsetBottom": "lg",
+        "action": {
+          "type": "uri",
+          "label": "action",
+          "uri": "https://lin.ee/Cln7rcQ"
+        }
+      },
+      {
+        "type": "text",
+        "text": "♻️ รีทวิต+กดหัวใจ+คอมเม้นต์❗ ",
+        "weight": "bold",
+        "align": "center",
+        "color": "#FFE4B5",
+        "size": "md"
+      },
+      {
+        "type": "text",
+        "text": "▶️ เม้นต์ว่า ' #เครดิตฟรี ' เพียงเท่านี้",
+        "weight": "bold",
+        "align": "center",
+        "color": "#ffffff",
+        "size": "sm",
+        "offsetTop": "none",
+        "offsetBottom": "none"
+      },
+      {
+        "type": "text",
+        "text": "❗️พร้อมแคปหลักฐานกลับมาแจ้ง❗️",
+        "weight": "bold",
+        "align": "center",
+        "color": "#ffffff",
+        "size": "sm",
+        "offsetTop": "none",
+        "margin": "xs"
+      },
+      {
+        "type": "text",
+        "text": "🔻 แชร์ทั้งหมด 3 โพสต์ 🔻",
+        "weight": "bold",
+        "align": "center",
+        "color": "#FFCC00",
+        "offsetTop": "none"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [],
+        "margin": "15px"
+      },
+      {
+        "type": "button",
+        "action": {
+          "type": "uri",
+          "label": "1. โพสต์เครดิตฟรี",
+          "uri": "https://bit.ly/3f5kmZl"
+        },
+        "style": "primary",
+        "color": "#0033FF",
+        "offsetTop": "sm",
+        "margin": "none",
+        "height": "sm"
+      },
+      {
+        "type": "button",
+        "action": {
+          "type": "uri",
+          "label": "2. โพสต์เครดิตฟรี",
+          "uri": "https://bit.ly/3W9SxQm"
+        },
+        "style": "primary",
+        "height": "sm",
+        "margin": "10px",
+        "color": "#0033FF"
+      },
+      {
+        "type": "button",
+        "action": {
+          "type": "uri",
+          "label": "3. โพสต์เครดิตฟรี",
+          "uri": "https://bit.ly/3spxMST"
+        },
+        "style": "primary",
+        "height": "sm",
+        "margin": "5px",
+        "color": "#0033FF"
+      }
+    ],
+    "borderWidth": "bold",
+    "cornerRadius": "xl",
+    "borderColor": "#00BFFF",
+    "backgroundColor": "#6600CC",
+    "action": {
+      "type": "uri",
+      "label": "action",
+      "uri": "https://lin.ee/Cln7rcQ"
+    },
+    "background": {
+      "type": "linearGradient",
+      "angle": "0deg",
+      "startColor": "#2a0e58",
+      "endColor": "#1b3e95",
+      "centerColor": "#1b3e95"
+    }
+  }
+}
+        
+        }
+           ]
+  
+      sendflex(aa)
+    }
+          
+   
+            
+          } else {
+            liff.login()
+            
+          }
+          
+          
+        })
+        
+      })
+      
+      function sendflex(flex){
+        liff.sendMessages(flex).then(function(){
+          liff.closeWindow()
+          
+        })
+        
+      }
+      
+      function shareflex(share){
+        liff.shareTargetPicker(share).then(function(){
+         
+        
+        })
+      }
+       function shareflexend(share){
+        liff.shareTargetPicker(share).then(function(){
+         liff.closeWindow()
+        
+        })
+      }
+            function getParameterByName(name, url) {
+        if (!url) url = window.location.href;
+        name = name.replace(/[\[\]]/g, '\\$&');
+        var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
+            results = regex.exec(url);
+        if (!results) return null;
+        if (!results[2]) return '';
+        return decodeURIComponent(results[2].replace(/\+/g, ' '));
+    }
+    }
+    </script>
+    
+    
+    <script charset="utf-8" src="https://static.line-scdn.net/liff/edge/2.1/sdk.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+  </body>
+</html>
